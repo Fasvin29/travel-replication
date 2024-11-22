@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>Travel</title>
+    <style>
+        body {
+            font-family: 'Saira Condensed';
+
+        }
+
+        .custom-box {
+
+            height: 30rem;
+            width: 25rem;
+        }
+
+        .logo-img {
+            max-width: 150px;
+        }
+
+        .nav-link.active {
+            color: white !important;
+            background-color: #007bff;
+        }
+
+        @media (max-width: 768px) {
+            .logo-img {
+                max-width: 100px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .logo-img {
+                max-width: 80px;
+            }
+        }
+
+        .bg-nav {
+            background-color: #E9E2D9;
+        }
+
+        .bg {
+            background-color: #CAB69A;
+        }
+
+        .bg2 {
+            background-color: #AB916A;
+        }
+
+        .highlight {
+            background-color: #E3D4BE;
+        }
+
+        .footer {
+            background-color: #E8DBC9;
+        }
+        
+    </style>
+</head>
+
+<body class="bg-nav">
+
+    <!-- nav bar -->
+    <section>
+        <nav class="navbar navbar-expand-lg bg-nav fixed-top">
+            <a class="navbar-brand ps-4" href="#">
+                <img src="logo.png" alt="logo" class="img-fluid logo-img" />
+            </a>
+
+            <button class="navbar-toggler-icon navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbartoggle"></button>
+
+            <!-- Nav pills -->
+            <div class="collapse navbar-collapse justify-content-around" id="navbartoggle">
+                <ul class="navbar-nav nav-pills nav-justified ">
+                    <li class="navbar-item p-2"><a class="nav-link rounded-4 fw-bold" href="index.html">Home</a></li>
+                    <li class="navbar-item p-2"><a class="nav-link rounded-4 fw-bold"
+                            href="destinations.html">Destination</a></li>
+                    <li class="navbar-item p-2"><a class="nav-link rounded-4 fw-bold" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="navbar-item p-2"><a class="nav-link rounded-4 fw-bold" href="policies.html">Policies</a>
+                    </li>
+                    <li class="navbar-item p-2"><a class="nav-link rounded-4 fw-bold active"
+                            href="application.html">Application</a></li>
+                    <li class="navbar-item p-2"><a class="nav-link rounded-4 fw-bold text-center" href="#">Call Us
+                            <br>+1800-922-3615</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- contents -->
+    <section class="mt-5">
+        <img style="height: 18rem;" class="w-100 mt-5 " src="Rectangle 105.png" alt="img">
+
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="col-12 col-md-3 bg container my-3 px-3">
+                        <h5 class="m-2 p-2 px-3" style="background-color: #E3D4BE;">Confidentially form</h5>
+                        <p class="m-2 p-2 px-3" style="background-color: #E3D4BE; font-size: 1.52rem;">This
+                            confidentiality
+                            form is a formal
+                            agreement by
+                            party A and Party
+                            B that whoever
+                            or whatever is
+                            harmed isn’t held
+                            accountable by
+                            ChronoShift. Upon
+                            returning from their
+                            travels, party B
+                            cannot speak of
+                            the event that has
+                            happened. They
+                            may however
+                            take pictures, but
+                            are not to disturb
+                            the past. Any leaked
+                            information will be
+                            held accountable by
+                            the other party
+                            and legal action
+                            will be taken. By
+                            signing below, they
+                            agree to these terms.
+                        </p>
+                        <form action="/action_page.php" class="needs-validation m-2">
+                            <div>
+                                <div class="form-check bg2 p-2 ms-2">
+                                    <input type="radio" class="form-check-input" id="radio1" name="optradio"
+                                        value="option1" checked>
+                                    <label class="form-check-label fw-bold" for="radio1">I agree to the terms
+                                        above</label>
+                                </div>
+                                <div class="form-check bg2 p-2 ms-2">
+                                    <input type="radio" class="form-check-input" id="radio2" name="optradio"
+                                        value="option2">
+                                    <label class="form-check-label fw-bold" for="radio2">I do not agree to the terms
+                                        above</label>
+                                </div>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                        </form>
+                        <div class=" mt-3 mb-3">
+                            <input type="text" class="form-control" id="pwd" placeholder="Signature"
+                                name="sign">
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-12 col-md-9 my-3">
+                        <section>
+                            <div class="row">
+                                <div class="col-12 col-lg-5 bg p-4 container mb-3 custom-box" style="font-size: 2rem;">
+                                    <h1>Necessities for the trip:</h1>
+                                    <ul>
+                                        <li>Youself</li>
+                                        <li>Food</li>
+                                        <li>Hunting/ Survival gear</li>
+                                        <li>Signed confidentiality form</li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="col-12 col-lg-5 bg p-4 container mb-3 custom-box">
+                                    <!--login form -->
+                                    <h3 class="highlight text-center">Sign In</h3>
+                                    <form action="/action_page.php">
+                                        <div class=" mb-3 mt-3">
+                                            <input type="text" class="form-control  form-control-sm" id="email"
+                                                placeholder="Email" name="email">
+                                        </div>
+                                        <div class="mt-3 mb-3">
+                                            <input type="text" class="form-control form-control-sm" id="pwd"
+                                                placeholder="Password" name="pswd">
+                                        </div>
+                                        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                                    </form>
+                                    <h3 class="highlight text-center mt-3">Sign Up</h3>
+                                    <form action="/action_page.php">
+                                        <div class=" mb-3 mt-3">
+                                            <input type="text" class="form-control" id="email" placeholder="Email"
+                                                name="email">
+                                        </div>
+                                        <div class=" mt-3 mb-3">
+                                            <input type="text" class="form-control" id="pwd" placeholder="Password"
+                                                name="pswd">
+                                        </div>
+                                        <div class=" mt-3 mb-3">
+                                            <input type="text" class="form-control" id="pwd" placeholder="DOT:"
+                                                name="dot">
+                                        </div>
+                                        <div class=" mt-3 mb-3">
+                                            <input type="text" class="form-control" id="pwd" placeholder="Phone number:"
+                                                name="ph no">
+                                        </div>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <button type="submit" class="btn btn-primary">Sign Up</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <!-- form -->
+                            <div class="container  mt-4 p-5 "
+                                style=" background-image: url(autumn-g0a50e9ca6_1920\ 1.png);">
+                                <h3 class="text-center">Application form</h3>
+                                <form action="/action_page.php">
+                                    <div class="d-flex">
+                                        <div class=" w-100 mt-3">
+                                            <input type="text" class="form-control" id="name" placeholder="Name"
+                                                name="name">
+                                        </div>
+                                        <div class=" w-100 mt-3 ms-4 ">
+                                            <input type="text" class="form-control" id="dot" placeholder="DOT"
+                                                name="dot">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class=" w-100 mt-3">
+                                            <input type="text" class="form-control" id="Address" placeholder="Address"
+                                                name="address">
+                                        </div>
+                                        <div class=" w-100 mt-3 ms-4 ">
+                                            <input type="text" class="form-control" id="Phonenumber"
+                                                placeholder="Phone number" name="dphone number">
+                                        </div>
+                                    </div>
+
+                                    <div class=" mt-3 mb-3">
+                                        <input type="text" class="form-control" id="ssid" placeholder="SSID"
+                                            name="ssid">
+                                    </div>
+                                    <div class=" mt-3 mb-3">
+                                        <input type="text" class="form-control" id="emergency"
+                                            placeholder="Emergency contacts" name="emergency">
+                                    </div>
+                                    <input type="text" class="form-control " id="emergency" name="emergency">
+                                    <div class="d-flex justify-content-center mt-3">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </form>
+                                <p class="bg2 p-2 ms-2 mt-4">By agreeing to the terms of the contract they are agreeing
+                                    to pay a penalty of ten thousand, shall they not obey the rules given. Their
+                                    discretion advised, there’s an additional fee of ten thousand to participate. Any
+                                    harm done to the participate is not held accountable by Chronoshift. Any questions
+                                    can be asked in the office.</p>
+                                <form action="/action_page.php" class="needs-validation m-2">
+                                    <div class="d-flex">
+                                        <div class="form-check bg2 p-2 ms-4 w-100">
+                                            <input type="radio" class="form-check-input" id="radio1" name="optradio"
+                                                value="option1" checked>
+                                            <label class="form-check-label fw-bold ms-4" for="radio1">I agree to the
+                                                terms above</label>
+                                        </div>
+                                        <div class="form-check bg2 p-2 ms-4 w-100">
+                                            <input type="radio" class="form-check-input" id="radio2" name="optradio"
+                                                value="option2">
+                                            <label class="form-check-label fw-bold ms-4" for="radio2">I do not agree to
+                                                the terms
+                                                above</label>
+                                        </div>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </form>
+                                <div class=" mt-3 mb-3">
+                                    <input type="text" class="form-control" id="pwd" placeholder="Signature"
+                                        name="sign">
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section>
+        <div class="footer">
+            <div class="container-fluid p-3">
+                <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                        <a class="text-reset text-decoration-none" href="#">Contact Us</a><br>
+                        <a class="text-reset text-decoration-none" href="#">+1800 922 3615</a><br>
+                        <a class="text-reset text-decoration-none" href="#">Chrono@gmail.org</a>
+                    </div>
+                    <div class="col-12 col-md-3 text-center">
+                        <a class="text-reset text-decoration-none" href="#">Social media</a><br>
+                        <a class="text-reset text-decoration-none" href="#">@ChronoShiftExploration</a><br>
+                        <div>
+                            <div class="row">
+                                <div class="col-3">
+                                    <a class="text-reset" href="#"><img src="instagram-gceab2e29f_1280 2.png"
+                                            alt="img"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a class="text-reset" href="#"><img src="facebook-g46720bc55_1280 2.png"
+                                            alt="img"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a class="text-reset" href="#"><img src="twitter-gf55746a79_1280 2.png"
+                                            alt="img"></a>
+                                </div>
+                                <div class="col-3">
+                                    <a class="text-reset" href="#"><img src="youtube-gc28f1bc53_1280 2.png"
+                                            alt="img"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 text-center">
+                        <a class="text-reset text-decoration-none" href="#">Guaranteed</a><br>
+                        <a class="text-reset text-decoration-none" href="#">No Surprise fees on credit cards</a><br>
+                        <a class="text-reset text-decoration-none" href="#">A trip to the past</a><br>
+                        <a class="text-reset text-decoration-none" href="#">Expert advise and guidance</a>
+                    </div>
+                    <div class="col-12 col-md-3 text-center">
+                        <a class="text-reset text-decoration-none" href="#">Our moto</a><br>
+                        <a class="text-reset text-decoration-none" href="#">Enter the domain of the past</a><br>
+                        <a class="text-reset text-decoration-none" href="#">You name the place</a><br>
+                        <a class="text-reset text-decoration-none" href="#">We take you there</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
